@@ -96,7 +96,7 @@ L POT RV1
 U 1 1 58564DE4
 P 4605 3460
 F 0 "RV1" H 4605 3380 50  0000 C CNN
-F 1 "POT" H 4605 3460 50  0000 C CNN
+F 1 "10k" H 4605 3460 50  0000 C CNN
 F 2 "" H 4605 3460 50  0000 C CNN
 F 3 "" H 4605 3460 50  0000 C CNN
 	1    4605 3460
@@ -292,7 +292,7 @@ Wire Notes Line
 Wire Notes Line
 	1880 3475 1880 1620
 Text Notes 1955 1730 0    60   ~ 0
-Warm White LED Circuit
-Text Notes 1925 2270 0    45   ~ 0
-LED:  20-30 mA; 3.2-3.6 Vf; 2330 mcd\nR1:  100 Ohm\nR2:  90 Ohm\nD1, D2:  1N4148\nCON1:  2.1 mm DC Barrel Jack\nC1, C2:  100 nF\n
+Warm White (3000 K) LED Circuit
+Text Notes 1925 2590 0    45   ~ 0
+LED:  20-30 mA\n      3.2-3.6 Vf\n      2330 mcd\nR1:  100 Ohm\nR2:  90 Ohm\nD1, D2:  1N4148 (or 1N914)\nCON1:  2.1 mm DC Barrel Jack\nC1, C2:  100 nF\nPOT:  10k\n
 $EndSCHEMATC
